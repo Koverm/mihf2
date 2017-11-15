@@ -34,10 +34,9 @@ public class NNSolutionOne {
     }
 
     public void write(){
-        for (Integer i:input
-        ) {
-            System.out.print(i);
-            if (!i.equals(input.get(input.size()-1))){
+        for (int i=0;i < input.size();++i){
+            System.out.print(input.get(i));
+            if (i<input.size()-1){
                 System.out.print(",");
             }
         }
