@@ -29,7 +29,7 @@ public class NNSolutionTwo {
         for (int i=0;i < input.size()-1;++i){
             float[][] tmp3 = new float[input.get(i)][input.get(i+1)];
             int n=0;
-            float [] tmp4 =new float[input.get(i)+1];
+            float [] tmp4 =new float[input.get(i+1)];
             for (int j=0;j<input.get(i+1);j++){
                 tmp= br.readLine();
                 tmp2 = tmp.split(",");
